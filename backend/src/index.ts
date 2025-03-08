@@ -7,6 +7,7 @@ import cookieParser from 'cookie-parser';
 import errorHandler from './middleware/errorHandler';
 import catchErrors from './utils/catchErrors';
 import { OK } from './constants/http';
+import authRouter from './routes/auth.route';
 
 
 
@@ -28,7 +29,8 @@ app.get('/', (req, res,next) => {
 })
 
 
-
+// auth routes
+app.use('/auth',authRouter);
 
 
 // Error handler
