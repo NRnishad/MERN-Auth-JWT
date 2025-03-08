@@ -28,6 +28,10 @@ app.get('/', (req, res,next) => {
 })
 
 
+
+
+
+// Error handler
 app.use(errorHandler);
 
 
