@@ -29,5 +29,10 @@
     "@types/jsonwebtoken": "^9.0.9",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.8.2"
-  }
+  },
+  "typescript.suggest.autoImports": true,
+  "javascript.suggest.autoImports": true,
+  "python.analysis.autoImportCompletions": true,
+  "javascript.suggest.includeCompletionsForImportStatements": true,
+  "typescript.preferences.includePackageJsonAutoImports": "on"
 }

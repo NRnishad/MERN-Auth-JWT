@@ -17,5 +17,7 @@ const VerificationCodeSchema = new mongoose.Schema<VerificationCodeDocument>({
 })
 
 
+const VerificationCodeModel = mongoose.model<VerificationCodeDocument>("VerificationCode", VerificationCodeSchema,"verification_codes");
 
-// 55 minutes 
+
+export default VerificationCodeModel;   
